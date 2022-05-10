@@ -1,10 +1,6 @@
 package com.lesson1;
 
 
-import java.sql.SQLOutput;
-
-import static java.awt.Color.orange;
-
 public class Lession1 {
     public static void main(String[] args) {
         System.out.println("printColor");
