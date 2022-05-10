@@ -3,16 +3,14 @@ package com.lesson1;
 
 public class Lession1 {
     public static void main(String[] args) {
-        System.out.println("printColor");
-        int value = 120;
-        if (value <= 0) {
-            System.out.println("красный");
+        System.out.println("CompareNumbers");
+        int a = 120;
+        int b = 60;
+        if (a >= b) {
+            System.out.println("a>=b");
         }
-        if (value > 0 & value <=100) {
-            System.out.println("жёлтый");
-        }
-        if (value > 100) {
-            System.out.println("Зелёный");
+            if (a <b){
+            System.out.println("a<b");
         }
     }
 }
