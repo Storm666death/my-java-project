@@ -4,7 +4,7 @@ package com.lesson1;
 public class Lession1 {
     public static void main(String[] args) {
         System.out.println("printColor");
-        int value = 125;
+        int value = 120;
         if (value <= 0) {
             System.out.println("красный");
         }
