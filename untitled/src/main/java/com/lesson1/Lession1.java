@@ -7,14 +7,16 @@ import static java.awt.Color.orange;
 
 public class Lession1 {
     public static void main(String[] args) {
-        System.out.println("checkSumSing");
-        int a = 2;
-        int b = 4;
-        if (a+b>=0){
-            System.out.println("сумма положительная");
+        System.out.println("printColor");
+        int value = 125;
+        if (value <= 0) {
+            System.out.println("красный");
         }
-        if (a+b<=0){
-            System.out.println("сумма отрицательная");
+        if (value > 0 & value <=100) {
+            System.out.println("жёлтый");
+        }
+        if (value > 100) {
+            System.out.println("Зелёный");
         }
     }
 }
