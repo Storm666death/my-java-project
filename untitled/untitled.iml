@@ -13,3 +13,6 @@
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
 </module>
+git config --global user.name "storm"
+        git config --global user.email storm666death@gmail.com
+        git commit --amend --reset-author

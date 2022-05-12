@@ -1,6 +1,11 @@
 
+<project xmlns="http://maven.apache.org/POM/it config --global user.email4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         <git config --global user.name "storm"
+        <git config --global user.email storm666death@gmail.com
+        <git commit --amend --reset-author
+
+
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 <modelVersion>4.0.0</modelVersion>
 <groupId>org.example</groupId>
@@ -32,4 +37,6 @@
         </plugin>
     </plugins>
 </build>
+
+
 </project>

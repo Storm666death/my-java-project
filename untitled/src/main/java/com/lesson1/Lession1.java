@@ -12,6 +12,8 @@ public class Lession1 {
             if (a <b){
             System.out.println("a<b");
         }
+
+
     }
 }
 
